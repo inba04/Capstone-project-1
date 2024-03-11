@@ -1,1 +1,2 @@
 # Capstone-project-1
+A "finance calculator" program that allows the user to access two different financial calculators: an investment calculator and a home loan repayment calculator. The investment calculator will help the user calculate the amount of interest they will earn on their investment over the specified number of years based on how much they invest. The home loan repayment calculator will help the user calculate how much they will have to pay on a home loan.
