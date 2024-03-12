@@ -13,6 +13,9 @@ if (user_selection == "investment"):
     interest_rate = float(input("Enter the interest rate (as a percentage): "))
     years = int(input("Enter the number of years you plan on investing for: "))
     interest_type = (input("Do you want 'simple' or 'compound' interest? ")).lower()
+    # if user selects "investment", ask user to enter the amount they wish to deposit,
+    # followed by the interest rate, the number of years they plan to invest and finally
+    # the interest type they wish to receive, whether "simple" or "compound"
 
     r = interest_rate / 100
 
