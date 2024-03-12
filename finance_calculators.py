@@ -5,10 +5,10 @@ print("Investment - to calculate the amount of interest you'll earn on your inve
 print("Bond - to calculate the amount you'll have to pay on a home loan")
 print("")
 # request user to enter an option from the above menu using an input function inorder to proceed
-user_choice = (input("Enter either 'investment' or 'bond' from the menu above to proceed: ")).lower()
+user_selection = (input("Enter either 'investment' or 'bond' from the menu above to proceed: ")).lower()
 
 
-if (user_choice == "investment"):
+if (user_selection == "investment"):
     amount = float(input("Enter the amount of money you are depositing: "))
     interest_rate = float(input("Enter the interest rate (as a percentage): "))
     years = int(input("Enter the number of years you plan on investing for: "))
@@ -28,7 +28,7 @@ if (user_choice == "investment"):
     print(f"The total amount after {years} years at {interest_rate}% {interest_type} interest will be: £{total_amount:.2f}")
 
 
-elif (user_choice == "bond"):
+elif (user_selection == "bond"):
     house_value = float(input("Enter the present value of the house: "))
     interest_rate = float(input("Enter the interest rate (as a percentage): "))
     months = int(input("Enter the number of months for bond repayment: "))
